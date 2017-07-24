@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "644550673305",
+    "firebase_url": "https://corporatecarpooling-f1d58.firebaseio.com",
+    "project_id": "corporatecarpooling-f1d58",
+    "storage_bucket": "corporatecarpooling-f1d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644550673305:android:b6d38e6445a95616",
+        "android_client_info": {
+          "package_name": "com.carpoolingibm.carpoolingibmcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644550673305-tia5n9t2aljc6g76mfuualpp9ipf10l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carpoolingibm.carpoolingibmcom",
+            "certificate_hash": "41fdcfd4f06e66aeae1d93394a9a009a18438649"
+          }
+        },
+        {
+          "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCICHqdw1x8u8fjpZXp4nBF3jy9HjHkKpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644550673305:android:875146e9f4e4ea74",
+        "android_client_info": {
+          "package_name": "com.app.carpool.carpoolapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644550673305-21ct8s3l04gcirkumhbmvevb79e3dam8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.carpool.carpoolapplication",
+            "certificate_hash": "977bf828586e50a2a1362095779b1f36c6011361"
+          }
+        },
+        {
+          "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCICHqdw1x8u8fjpZXp4nBF3jy9HjHkKpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644550673305:android:ffb3e5c811fa58eb",
+        "android_client_info": {
+          "package_name": "carpool.corporatecarpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644550673305-95kcpparlmd6pnm62hoo1af9gs3nua5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "carpool.corporatecarpooling",
+            "certificate_hash": "41fdcfd4f06e66aeae1d93394a9a009a18438649"
+          }
+        },
+        {
+          "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCICHqdw1x8u8fjpZXp4nBF3jy9HjHkKpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644550673305-s20657rs96dtjmi14u8fhit0b2a7kpk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

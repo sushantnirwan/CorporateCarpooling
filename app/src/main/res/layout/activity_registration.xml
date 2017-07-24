@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:background="@color/white"
+
+    tools:context="carpool.corporatecarpooling.RegistrationActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editText_Mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="Mobile Number"
+        android:enabled="false"
+        android:textColorHint="@color/grey"
+        android:background="@null"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/indigo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/editText_name"
+        android:hint="Name"
+        android:textColorHint="@color/grey"
+        android:background="@null"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/indigo"
+     />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_email"
+        android:hint="Official Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:background="@null"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/indigo"
+           />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="260dp"
+        android:layout_height="53dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/radio_Male"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:buttonTint="@color/black"
+            android:text="@string/radio_male"
+            android:textColor="@color/black"
+            android:layout_weight="0.57"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_Female"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:buttonTint="@color/black"
+            android:text="@string/radio_female"
+            android:textColor="@color/black"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/button_sendOTP"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_submit"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.13"
+        android:background="@color/indigo"
+        android:text="Generate PIN"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/link_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Already a User? Login"
+        android:textColor="@color/indigo"
+        android:textSize="16dp" />
+
+</LinearLayout>
