@@ -13,7 +13,6 @@ public class HomeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-       // MainController.launchActivityPage(R.layout.activity_home);
         setContentView(R.layout.activity_home);
          }
 
