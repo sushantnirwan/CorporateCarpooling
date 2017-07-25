@@ -1,6 +1,7 @@
 package carpool.corporatecarpooling.home.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -19,12 +20,14 @@ public class HomeActivity extends Activity {
 
     public void login_action(View view)
     {
-        setContentView(R.layout.activity_login);
+        Intent linkIntent = new Intent(HomeActivity.this, LoginActivity.class);
+        startActivity(linkIntent);
     }
 
     public void register_action(View view)
     {
-        setContentView(R.layout.activity_registration);
+        Intent linkIntent = new Intent(HomeActivity.this, RegistrationActivity.class);
+        startActivity(linkIntent);
     }
 
 
